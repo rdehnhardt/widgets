@@ -20,5 +20,12 @@
         "psr-4": {
             "Rdehnhardt\\Widgets\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rdehnhardt\\Widgets\\WidgetsServiceProvider"
+            ]
+        }
     }
 }
