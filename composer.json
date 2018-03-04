@@ -1,0 +1,24 @@
+{
+    "name": "rdehnhardt/widgets",
+    "description": "Laravel widgets",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Renato Dehnhardt",
+            "email": "renatotkd@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "illuminate/view": "5.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rdehnhardt\\Widgets\\": "src/"
+        }
+    }
+}
